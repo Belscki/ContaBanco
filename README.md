@@ -1,18 +1,46 @@
-## Getting Started
+# Projeto Java – Bootcamp 2025
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em Java desenvolvido durante o Bootcamp 2025. Ele demonstra a criação de uma conta bancária via terminal com entrada de dados pelo usuário.
 
-## Folder Structure
+## 📁 Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+📦 projeto
+├── bin/ # Arquivos compilados (.class)
+├── src/ # Código-fonte (.java)
+├── run.bat # Script de execução para Windows
+├── run.sh # Script de execução para Linux/Mac
+└── README.md # Este arquivo
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ▶️ Como executar o projeto
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 🔁 1. Clonar o repositório
 
-## Dependency Management
+Abra o terminal e execute:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+git clone https://github.com/Belscki/ContaBanco.git
+cd seu-repositorio
+
+💻 2. Executar no Windows
+
+.\run.bat
+
+    Certifique-se de ter o Java instalado e configurado no PATH.
+
+🐧 3. Executar no Linux ou Mac
+
+Antes de tudo, dê permissão de execução:
+
+chmod +x run.sh
+
+Depois, execute:
+
+./run.sh
+
+☕ Requisitos
+
+    Java JDK 11 ou superior
+
+    Terminal ou prompt de comando
